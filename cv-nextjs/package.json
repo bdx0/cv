@@ -13,7 +13,7 @@
     "@next/mdx": "^16.0.3",
     "marked": "^17.0.0",
     "marked-highlight": "^2.2.3",
-    "next": "16.0.3",
+    "next": "16.0.7",
     "next-mdx-remote": "^5.0.0",
     "prismjs": "^1.30.0",
     "react": "19.2.0",
