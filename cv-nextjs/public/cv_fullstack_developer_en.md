@@ -3,80 +3,76 @@
 baoduy.duong0206@gmail.com | https://github.com/bdx0 | https://bdx0.io.vn
 
 ## Summary
-Highly accomplished Software Engineer with 9 years of extensive experience in fullstack development, spanning frontend, backend, and mobile applications. Proven expertise in optimizing application performance, designing scalable architectures, and driving innovative solutions across diverse technology stacks. Adept at leveraging modern frameworks, cloud-native technologies (Kubernetes), and AI/ML techniques to deliver robust and user-centric software. Passionate about bridging the gap between technology and human interaction to create simpler, better software.
+Fullstack / AI Software Engineer with 9 years of experience across backend, frontend, mobile, real-time communication, and Linux infrastructure. Strong in Python, TypeScript, Go, Flutter, PostgreSQL, Kubernetes, and self-hosted developer platforms. Recently focused on AI-enabled applications: LLM API routing, agent tooling, document/RAG workflows, speech-to-text experiments, and practical AI integrations that can be shipped as products. Looking for a Fullstack or AI Developer role where I can build production software and turn AI prototypes into reliable user-facing systems.
 
 ## Work Experience
 
-**Freelance Fullstack Developer & AI Researcher** | Home | 12/2022 – Present
-*   Designed and deployed a comprehensive home lab utilizing QEMU, libvirt, and Kubernetes to support fullstack application development and deployment.
-*   Developed and tested robust APIs and web applications within isolated VMs and containers, integrating IoT components to simulate real-world backend scenarios.
-*   Gained extensive hands-on experience with DevOps workflows, Linux server environments, and self-hosted developer tools.
-*   Conducted AI research, including fine-tuning Whisper models with RLHF, porting llama.c to iPhone, and customizing models for specific voice recognition tasks.
+**Freelance Fullstack Developer & AI Builder** | Ho Chi Minh City, Vietnam | 12/2022 – Present
+*   Built and maintained a self-hosted homelab using Linux, QEMU/libvirt, Docker, Kubernetes, NAS storage, and private developer services.
+*   Developed fullstack prototypes with React/Next.js, Python/FastAPI, Go, PostgreSQL, and containerized deployment workflows.
+*   Built AI tooling and experiments around LLM routing, local/remote model usage, RAG-style document workflows, speech-to-text, and agent memory.
+*   Designed developer workflows for personal productivity: GTD knowledge base, local search, file indexing, and agent-assisted coding.
+*   Practiced production-oriented DevOps: Git-based workflows, service deployment, debugging, observability basics, and Linux server operations.
 
-**Senior Software Engineer** | Rever Corp, City, Country | 06/2019 – 12/2022
-*   Developed and optimized mobile applications using Flutter, integrating with backend services and APIs.
-*   Enhanced app performance through strategic code refactoring, advanced database query optimization, and effective caching strategies.
-*   Implemented comprehensive unit tests and automated testing procedures, ensuring high code quality and system reliability.
-*   Integrated REST APIs for dynamic data retrieval and seamless synchronization between mobile and backend systems.
+**Senior Software Engineer** | Rever Corp | 06/2019 – 12/2022
+*   Developed and optimized the Rever mobile application with Flutter and backend API integration.
+*   Improved app performance through refactoring, database query optimization, caching, and practical profiling.
+*   Implemented automated tests and improved code quality for mobile features used in a production real estate product.
+*   Integrated REST APIs for data synchronization between mobile clients and backend services.
+*   Collaborated with product/design teams to deliver user-facing features and resolve production issues.
 
-**Senior Software Engineer** | VNG Corp, City, Country | 08/2014 – 05/2019
-*   Developed a mobile video call feature leveraging WebRTC technology, facilitating real-time communication.
-*   Designed and implemented a sophisticated call quality analysis system for monitoring and improving communication metrics.
-*   Contributed to both mobile (iOS with C/Objective-C) and backend development, including Python and Java components for data analysis and API services.
+**Senior Software Engineer** | VNG Corp | 08/2014 – 05/2019
+*   Built mobile video call features using WebRTC and native iOS/Android technologies.
+*   Designed and implemented call quality analysis systems for monitoring real-time communication metrics.
+*   Developed data processing and backend support tools with Python and Java.
+*   Wrote C, Java, and Objective-C code to collect, process, and analyze client-side call metrics.
 
-**Mobile Developer** | BraveSoft Corp, City, Country | 05/2013 – 07/2014
-*   Developed Android and iOS applications, demonstrating versatility across mobile platforms.
-*   Utilized the Android NDK to implement low-level code for enhancing and modifying FFmpeg's functionality on Android.
-*   Developed an FFmpeg wrapper for advanced video processing, including cropping, background insertion, and video merging.
+**Mobile Developer** | BraveSoft Corp | 05/2013 – 07/2014
+*   Developed Android and iOS applications for client projects.
+*   Used Android NDK and FFmpeg for low-level media processing features.
+*   Built an FFmpeg wrapper for video cropping, background insertion, and video merging.
 
-## Projects
+## Selected Projects
 
-**Homelab** | Home | 10/2019 – Present
-*   Designed, built, and hosted a Kubernetes cluster on-premise, serving as a robust platform for fullstack application development and deployment.
+**AI Router / LLM Platform**
+*   Designed a unified layer for working with multiple LLM providers, model routing, API keys, logging, and future cost controls.
+*   Focus areas: provider abstraction, OpenAI-compatible APIs, request logging, model registry, and practical AI service endpoints.
 
-**GPT Deep dive** | Home | 10/2023 – 6/2024
-*   Developed a nanogpt implementation with specific support for the Vietnamese language, showcasing deep learning and natural language processing skills.
+**Agent Tooling / Personal Knowledge System**
+*   Built and operated local workflows for file indexing, GTD task management, notes, memory, and coding-agent assistance.
+*   Focus areas: SQLite-backed search, Markdown knowledge base, CLI workflows, and agent-readable project context.
 
-**Whisper** | Home | 4/2023 – 10/2023
-*   Built a customized Whisper model with support for the Vietnamese language, demonstrating expertise in speech-to-text technologies.
+**Homelab Platform**
+*   Designed and hosted a local Linux/Kubernetes environment for running web apps, backend services, databases, and AI experiments.
+*   Used QEMU/libvirt, Docker, Kubernetes, NAS storage, Git, Bash, and Linux administration.
 
-**DocRag** | Home | 10/2022 – 4/2023
-*   Developed an agent/tool within the Langchain framework to efficiently search and retrieve relevant information from the internet, highlighting AI and backend integration skills.
+**Document RAG / AI Workflow Experiments**
+*   Built prototypes for document search, retrieval, summarization, and AI-assisted content workflows.
+*   Explored OCR, LangChain-style tooling, local knowledge bases, and document automation.
 
-**Rever Mobile App** | Rever Corp | 06/2019 – 12/2022
-*   Fullstack mobile application development with Flutter, focusing on performance, API integration, and user experience.
+**Vietnamese Speech / Whisper Experiments**
+*   Tested speech-to-text workflows for Vietnamese audio and domain-specific voice recognition.
+*   Explored model adaptation, data collection, and practical STT integration for user-facing apps.
 
-**ZaloStats** | VNG Corp | 08/2014 – 05/2019
-*   Designed and implemented a comprehensive analysis system for call quality, involving Python for data processing and C/Java/Objective-C for metric collection.
-
-**ZaloCall** | VNG Corp | 08/2014 – 05/2019
-*   Developed a mobile application on iOS using C/Objective-C, enabling robust video call functionality over the internet.
-
-## Education
-
-**Bachelor in Mathematics & Computer Science** | Ho Chi Minh University of Science, City, Country | Sept 2007 – May 2013
-*   GPA: 7.0/10
+**Zalo Call Quality Analysis**
+*   Designed systems to measure and analyze call quality using Python plus native client instrumentation.
+*   Supported real-time communication reliability for video call features.
 
 ## Skills
 
-*   **Programming Languages**: Python, Javascript/Typescript, Go, Java, C/C++, Dart, Kotlin, Swift
+*   **Languages:** Python, TypeScript/JavaScript, Go, Java, C/C++, Dart, Kotlin, Swift, Objective-C
+*   **Frontend:** React, Next.js, Flutter, HTML/CSS
+*   **Backend:** FastAPI, Django, Go/Gin, Spring Boot, REST APIs, API integration
+*   **Databases:** PostgreSQL, SQLite, Supabase, Baserow
+*   **AI / ML:** LLM APIs, RAG workflows, prompt/context engineering, Whisper/STT, PyTorch, NumPy, Pandas
+*   **DevOps / Infra:** Linux, Docker, Kubernetes, Git, Bash, QEMU, libvirt, NAS/self-hosting
+*   **Domains:** Real-time communication, WebRTC, mobile apps, document automation, agent tooling
+*   **Languages:** English working proficiency, Vietnamese native, Japanese basic
 
-*   **Frontend Frameworks**: Next.js, Flutter
+## Education
 
-*   **Backend Frameworks**: Fastapi, Django, Gin, Springboot
+**Bachelor in Mathematics & Computer Science** | Ho Chi Minh University of Science | 09/2007 – 05/2013
 
-*   **Databases**: PostgreSQL, Superbase, Baserow
+## Certifications
 
-*   **DevOps & Platforms**: Kubernetes, Linux, Git, Bash, QEMU, libvirt
-
-*   **AI/Machine Learning**: Pandas, Numpy, Matplotlib, Pytorch, MLx, Tinygrad
-
-*   **Other Technical Skills**: WebRTC, Android NDK, iOS Development, API Design & Integration
-
-*   **Soft Skills**: Critical Thinking, Problem-Solving, Time Management, GTD, Public Speaking, Self-motivation
-
-*   **Languages**: English (Working Proficiency), Japanese (Basic)
-                                                                                                                                              
-## Awards
-
-*   CCNA certified by Trung Tam Tin Hoc DHKHTN
+*   CCNA, University of Science Computer Center
