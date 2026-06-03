@@ -63,9 +63,9 @@ Fullstack / AI Software Engineer with 9 years of experience across backend, fron
 *   **Languages:** Python, TypeScript/JavaScript, Go, Java, C/C++, Dart, Kotlin, Swift, Objective-C
 *   **Frontend:** React, Next.js, Flutter, HTML/CSS
 *   **Backend:** FastAPI, Django, Go/Gin, Spring Boot, REST APIs, API integration
-*   **Databases:** PostgreSQL, SQLite, Supabase, Baserow
-*   **AI / ML:** LLM APIs, RAG workflows, prompt/context engineering, Whisper/STT, PyTorch, NumPy, Pandas
-*   **DevOps / Infra:** Linux, Docker, Kubernetes, Git, Bash, QEMU, libvirt, NAS/self-hosting
+*   **Databases:** PostgreSQL, SQLite
+*   **AI / ML:** LLM APIs, prompt/context engineering, Whisper/STT, PyTorch, NumPy, Pandas
+*   **DevOps / Infra:** Linux, Docker, Kubernetes, Bash, self-hosted homelab (QEMU/libvirt/NAS)
 *   **Domains:** Real-time communication, WebRTC, mobile apps, document automation, agent tooling
 *   **Languages:** English working proficiency, Vietnamese native, Japanese basic
 
