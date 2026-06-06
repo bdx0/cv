@@ -33,17 +33,20 @@ cv/                                ← project root
     comparisons/                   ← A vs B analyses
     syntheses/                     ← cross-source conclusions
     questions/                     ← open questions, gaps, unknowns
-    personal/                      ← goals, preferences, career context
-  inbox/                           ← stray files, drafts, reference materials
+    personal/
+      profile.md                   ← identity anchor: wiki owner (bắt buộc đọc trước ingest)
+      career-goals.md              ← target roles, skill targets, timeline
+  inbox/                           ← raw sources: CV versions, JD texts, articles, reference materials — immutable after ingest
   cv-nextjs/                       ← Next.js app (internal structure not tracked here)
 ```
 
 ## Load Order
 
-1. Read `wiki/index.md` before answering or editing.
-2. Load relevant pages from `wiki/entities/` and other subdirectories.
-3. Use wiki first; read CV output files only when checking generated output.
-4. `inbox/` is unsorted — do not treat as canonical source.
+1. Đọc `wiki/personal/profile.md` — xác định owner. Bắt buộc trước mọi operation.
+2. Đọc `wiki/index.md` để navigate wiki.
+3. Load relevant pages từ `wiki/entities/` và các subdirectories khác.
+4. Dùng wiki trước; đọc CV output files chỉ khi cần kiểm tra generated output.
+5. `inbox/` là raw sources — đọc để trace provenance, không edit sau khi ingest.
 
 ## Canonical CV Output Files
 
@@ -179,17 +182,41 @@ updated: YYYY-MM-DD
 
 Create the wiki directory structure and `index.md`, `log.md` if they do not exist.
 
-### Ingest CV
+### Ingest
 
-Parse a CV markdown file and create/update wiki pages:
+Nhận bất kỳ source nào, tự nhận diện loại rồi xử lý phù hợp.
 
-1. Read `wiki/index.md`.
-2. Extract skills → create/update `wiki/entities/<slug>.md` with `subtype: skill`.
-3. Extract projects → create/update `wiki/entities/<slug>.md` with `subtype: project`.
-4. Extract experience → create/update `wiki/entities/<slug>.md` with `subtype: experience`.
-5. Link evidence in skill frontmatter.
-6. Update `wiki/index.md`.
-7. Append to `wiki/log.md`.
+**Bước 0 — Load identity anchor (bắt buộc trước mọi ingest):**
+
+Đọc `wiki/personal/profile.md` để biết wiki thuộc về ai. Mọi personal claim phải match owner trong profile. Nếu profile chưa tồn tại → yêu cầu tạo trước khi ingest bất cứ thứ gì.
+
+**Nhận diện source:**
+
+| Source | Dấu hiệu | Destination |
+|--------|----------|-------------|
+| CV của owner | Có tên owner, sections: Summary, Work Experience, Skills | `entities/` — personal claims |
+| Job description | Có: company, role, requirements, qualifications | `entities/` subtype: job-description |
+| Guideline / article | Không có tên owner, nội dung tổng quát | `concepts/` ONLY — không tạo personal entities |
+| URL | Bắt đầu bằng http | Fetch → nhận diện lại |
+
+**Quy tắc phân biệt personal vs external:**
+
+- Source có tên khớp owner (`wiki/personal/profile.md`) → personal claim → `entities/`
+- Source không có tên owner hoặc là tài liệu chung → external knowledge → `concepts/`
+- Không bao giờ extract personal entities từ guidelines, templates, hay example CVs
+
+**Quy trình:**
+
+1. Load `wiki/personal/profile.md` — xác định owner.
+2. Đọc `wiki/index.md`.
+3. Nhận diện source type và kiểm tra personal vs external.
+4. Kiểm tra duplicate: slug, title, hoặc nội dung tương tự đã tồn tại chưa.
+5. Extract và upsert vào destination phù hợp.
+6. Ghi `source:` field trong mỗi entity/concept trỏ về file inbox nguồn.
+7. Nếu là JD → chạy Match JD tự động.
+8. Nếu là CV của owner → link evidence vào skill entities.
+9. Update `wiki/index.md`.
+10. Append INGEST entry vào `wiki/log.md` với reference đến source file.
 
 ### Query
 
@@ -214,15 +241,17 @@ So sánh một job description với wiki skills để xác định fit:
 5. Output report: % match, strong matches, gaps cần fill trước khi apply.
 6. Đề xuất: CV variant nào phù hợp nhất, phần nào cần nhấn mạnh.
 
-### Generate CV for JD
+### Generate CV
 
-Tạo CV variant tối ưu cho một JD cụ thể:
+CV luôn được tạo cho một JD cụ thể — không có JD thì không generate CV.
 
-1. Chạy Match JD trước.
-2. Filter skills: ưu tiên skills match `required_skills` của JD.
+1. Chạy Match JD trước để biết fit level.
+2. Filter skills: ưu tiên `required_skills` của JD, giữ `nice_to_have` nếu có evidence.
 3. Filter projects: ưu tiên projects dùng tech trong JD.
-4. Điều chỉnh Summary section để nhấn mạnh relevant experience.
-5. Output file riêng: `cv-nextjs/public/cv_<company>_<role>.md`.
+4. Viết Summary section nhấn mạnh relevant experience cho role đó.
+5. Commit current canonical CV vào git trước khi tạo file mới.
+6. Output: `cv-nextjs/public/cv_<company-slug>_<role-slug>.md`.
+7. Append GENERATE entry vào `wiki/log.md`.
 
 ### Career Path Analysis
 
@@ -249,23 +278,53 @@ Check for:
 
 ### Process Inbox
 
-Review files in `inbox/` and decide their fate:
+Ingest raw sources từ `inbox/` vào wiki:
 
-1. Reference materials (images, guidelines) → keep in `inbox/`, no action needed.
-2. Draft CV files → compare with canonical, extract useful changes, then archive.
-3. Useful content → ingest into wiki pages.
-4. Append to `wiki/log.md`.
+1. Đọc file trong `inbox/` chưa được ingest.
+2. Nhận diện source type → chạy Ingest.
+3. Sau khi ingest, giữ nguyên file trong `inbox/` — không xóa, không edit (immutable raw).
+4. Append INGEST entry vào `wiki/log.md` với reference đến file nguồn.
 
-### Generate CV
+### View Profile
 
-Regenerate CV markdown from wiki pages:
+Trả lời câu hỏi về career mà không generate CV file:
 
-1. Query all `wiki/entities/` pages with `subtype: skill` and `on_cv: true`, filter by `cv_variant`.
-2. Query `subtype: project` pages for Selected Projects section.
-3. Query `subtype: experience` pages for Work Experience section.
-4. Commit current CV file to git before overwriting (git is the version history).
-5. Write updated markdown to the canonical output file.
-6. Append GENERATE entry to `wiki/log.md`.
+1. Đọc `wiki/index.md`.
+2. Load các skill/project/experience entities liên quan.
+3. Trả lời: "tôi là ai", "tôi biết gì", "tôi đã làm gì", "tôi fit với role X không?"
+4. Không tạo CV file — chỉ trả lời từ wiki.
+
+### Interview
+
+Đóng vai technical interviewer để validate claimed skills và probe weak spots.
+
+**Chuẩn bị trước khi bắt đầu:**
+
+1. Đọc `wiki/index.md` và load tất cả skill entities.
+2. Xác định scope: interview cho một role cụ thể (từ JD entity) hoặc general.
+3. Nếu có JD: ưu tiên câu hỏi về `required_skills` của JD.
+4. Lập danh sách probe targets theo thứ tự:
+   - Skills `confidence: low` hoặc `medium` → probe trước
+   - Skills chỉ có `experiment` hoặc `study` evidence → hỏi sâu hơn
+   - Skills có gap lớn (`level` vs `target_level`) → kiểm tra thực chất
+   - Skills `confidence: high` + production evidence → hỏi nhanh để confirm
+
+**Quy tắc conduct:**
+
+- Đặt câu hỏi từng cái một, chờ user trả lời trước khi hỏi tiếp.
+- Hỏi cụ thể: "explain X", "how would you solve Y", "what went wrong in Z project".
+- Probe deeper nếu câu trả lời vague: "can you be more specific?", "walk me through the code."
+- Không hint đáp án, không confirm đúng/sai trong khi interview.
+- Ghi nhớ chất lượng trả lời để đánh giá cuối.
+
+**Kết thúc interview:**
+
+1. Đưa ra feedback: điểm mạnh, điểm yếu, câu nào trả lời tốt/kém.
+2. Đề xuất update wiki:
+   - Tăng `confidence` nếu trả lời tốt hơn claim
+   - Giảm `confidence` hoặc `level` nếu thực chất kém hơn
+   - Lưu câu hỏi khó vào `wiki/questions/<skill>.md` để ôn
+3. Hỏi user có muốn apply updates không trước khi ghi.
 
 ## Conflict Policy
 

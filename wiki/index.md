@@ -49,7 +49,8 @@ Source of truth cho career data của Duy. Đọc file này trước khi edit b�
 - [bravesoft.md](entities/bravesoft.md) — BraveSoft Corp, 2013–2014
 
 ## Concepts
-_(empty)_
+- [ats-guidelines.md](concepts/ats-guidelines.md) — ATS-Friendly Resume Guidelines
+- [ats-resume-style.md](concepts/ats-resume-style.md) — Perfect ATS Resume Style
 
 ## Comparisons
 _(empty)_

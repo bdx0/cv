@@ -10,4 +10,4 @@ tech: [python, java, c, objective-c, webrtc, ios, android]
 updated: 2026-06-01
 ---
 
-Phát triển tính năng video call cho Zalo bằng WebRTC và iOS/Android native. Thiết kế hệ thống phân tích call quality. Viết tools xử lý dữ liệu bằng Python và Java.
+Phát triển ZaloCall — video call feature phục vụ 30M+ users tại Việt Nam — bằng WebRTC, iOS/Android native. Thiết kế hệ thống phân tích call quality (packet loss, jitter, MOS score). Viết data pipelines Python/Java để visualize call quality trends.

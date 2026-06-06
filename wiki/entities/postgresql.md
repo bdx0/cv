@@ -6,8 +6,14 @@ category: database
 level: intermediate
 target_level: advanced
 priority: high
-confidence: medium
+confidence: low
 on_cv: true
 updated: 2026-06-01
-evidence: []
+evidence:
+  - project: ai-router
+    type: personal-project
+    note: "schema design, query optimization, production data"
+  - project: py-agent
+    type: personal-project
+    note: "PostgreSQL-backed persistence, async queries"
 ---
