@@ -9,5 +9,8 @@ priority: low
 confidence: medium
 on_cv: true
 updated: 2026-06-01
-evidence: []
+evidence:
+  - project: homelab
+    type: personal-project
+    note: "self-hosted K8s cluster, service deployment"
 ---

@@ -9,5 +9,11 @@ priority: medium
 confidence: medium
 on_cv: true
 updated: 2026-06-01
-evidence: []
+evidence:
+  - project: ai-router
+    type: personal-project
+    note: "API gateway, LLM proxy endpoints"
+  - project: py-agent
+    type: personal-project
+    note: "web interface backend"
 ---

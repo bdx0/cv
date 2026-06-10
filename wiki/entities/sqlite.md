@@ -9,5 +9,11 @@ priority: medium
 confidence: medium
 on_cv: true
 updated: 2026-06-01
-evidence: []
+evidence:
+  - project: project-agent-tooling
+    type: personal-project
+    note: "SQLite-backed search, knowledge base, GTD system"
+  - project: py-agent
+    type: personal-project
+    note: "local persistence layer"
 ---
