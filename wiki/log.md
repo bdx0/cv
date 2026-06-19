@@ -1,5 +1,24 @@
 # CV Wiki Log
 
+## 2026-06-19
+
+- FIX: index.md — link entities/nanogpt-vietnamese.md vào Projects section (orphan file phát hiện lúc lint wiki)
+- INGEST: Tạo syntheses/cv-nextjs-hosting-decision.md từ inbox/2026-06-12-hosting-options.md — quyết định hosting Vercel + Cloudflare Tunnel cho cv-nextjs
+- UPDATE: index.md — thêm syntheses/cv-nextjs-hosting-decision.md vào Syntheses section
+
+## 2026-06-14
+
+- UPDATE: career-goals.md — thay AIRouter public deploy → py-agent public deploy (ai-router đã paused)
+
+## 2026-06-13
+
+- UPDATE: ai-router — status: active → paused (tạm dừng)
+
+## 2026-06-12
+
+- INGEST: Tạo entities/cv-agent.md — project entity cho cvwiki (CV Agent / CV Wiki)
+- UPDATE: index.md — thêm py-agent và cv-agent vào Projects section
+
 ## 2026-06-01
 
 - SETUP: Khởi tạo wiki từ cv_fullstack_developer_en.md

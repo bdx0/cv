@@ -35,12 +35,15 @@ Source of truth cho career data của Duy. Đọc file này trước khi edit b�
 - [agent-tooling.md](entities/agent-tooling.md) — Agent Tooling, intermediate, medium
 
 ### Projects
-- [ai-router.md](entities/ai-router.md) — AI Router / LLM Platform (active)
+- [py-agent.md](entities/py-agent.md) — py-agent: Multi-interface AI Agent (active)
+- [cv-agent.md](entities/cv-agent.md) — CV Agent / CV Wiki (active)
+- [ai-router.md](entities/ai-router.md) — AI Router / LLM Platform (paused)
 - [project-agent-tooling.md](entities/project-agent-tooling.md) — Agent Tooling / Knowledge System (active)
 - [homelab.md](entities/homelab.md) — Homelab Platform (active)
 - [doc-rag.md](entities/doc-rag.md) — Document RAG Experiments (planned)
 - [whisper-vietnamese.md](entities/whisper-vietnamese.md) — Vietnamese Speech / Whisper (archived)
 - [zalo-call-quality.md](entities/zalo-call-quality.md) — Zalo Call Quality (archived, work-private)
+- [nanogpt-vietnamese.md](entities/nanogpt-vietnamese.md) — NanoGPT Vietnamese (archived, experiment)
 
 ### Experience
 - [freelance.md](entities/freelance.md) — Freelance, 2022–present
@@ -56,7 +59,7 @@ Source of truth cho career data của Duy. Đọc file này trước khi edit b�
 _(empty)_
 
 ## Syntheses
-_(empty)_
+- [cv-nextjs-hosting-decision.md](syntheses/cv-nextjs-hosting-decision.md) — Hosting decision: Vercel + Cloudflare Tunnel (planned, not yet deployed)
 
 ## Questions
 _(empty)_

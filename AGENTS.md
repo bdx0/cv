@@ -37,7 +37,15 @@ cv/                                ← project root
       profile.md                   ← identity anchor: wiki owner (bắt buộc đọc trước ingest)
       career-goals.md              ← target roles, skill targets, timeline
   inbox/                           ← raw sources: CV versions, JD texts, articles, reference materials — immutable after ingest
-  cv-nextjs/                       ← Next.js app (internal structure not tracked here)
+  log.md                           ← append-only project-wide change log
+  SPEC.md                          ← requirements và constraints cho CV system
+  cv-nextjs/                       ← Next.js app
+    index.md                       ← source index, catalog cấu trúc app
+    log.md                         ← append-only source/app change log
+    app/                           ← Next.js App Router
+    components/                    ← React components
+    public/                        ← CV output files + static assets
+    scripts/                       ← generate-pdf.js và operational scripts
 ```
 
 ## Load Order
@@ -47,6 +55,8 @@ cv/                                ← project root
 3. Load relevant pages từ `wiki/entities/` và các subdirectories khác.
 4. Dùng wiki trước; đọc CV output files chỉ khi cần kiểm tra generated output.
 5. `inbox/` là raw sources — đọc để trace provenance, không edit sau khi ingest.
+6. Khi làm việc với app layer (cv-nextjs): đọc `cv-nextjs/index.md` trước. Append changes vào `cv-nextjs/log.md`.
+7. Sau mọi thay đổi đáng kể: append entry vào `log.md` (project-wide) và/hoặc `cv-nextjs/log.md` (app layer).
 
 ## Canonical CV Output Files
 

@@ -25,8 +25,8 @@ Focus: production AI applications, LLM tooling, backend + infra.
 ## Projects to Build (fills evidence gaps)
 
 - [ ] DocRAG — fills: LLM APIs production evidence, PostgreSQL/pgvector
-- [ ] AIRouter public deploy — fills: "shipped LLM in production"
-- [ ] Flutter AIRouter client — fills: Dart/Flutter mobile evidence
+- [ ] py-agent public deploy — fills: "shipped LLM in production"
+- [ ] Flutter py-agent client — fills: Dart/Flutter mobile evidence
 - [ ] Whisper push to GitHub — fills: public evidence cho STT
 
 ## Career Path
