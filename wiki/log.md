@@ -39,3 +39,4 @@
 - UPDATE: pytorch — beginner → intermediate (viết GPT from scratch), confidence: low (yếu toán học)
 - UPDATE: postgresql — confidence medium → high, thêm evidence ai-router + py-agent
 - UPDATE: postgresql — confidence revert → low (PostgreSQL code trong projects do agent viết, không phải tự viết)
+2026-06-28 GENERATE cv_cb-centres_it-staff.md — JD: Nhân viên Công nghệ & Lập trình @ CB Centres. Match ~75%. Tập trung kinh nghiệm, bỏ projects chưa hoàn thành (ai-router, doc-rag, nanogpt). Tiếng Việt, ATS-compliant.
