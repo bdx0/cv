@@ -225,6 +225,7 @@ export default function OwnerPage() {
         <div className="flex gap-2 items-end max-w-4xl mx-auto">
           <textarea
             ref={inputRef}
+            suppressHydrationWarning
             className="flex-1 bg-gray-800 rounded-xl px-4 py-3 text-sm outline-none focus:ring-1 focus:ring-blue-500 placeholder-gray-500 resize-none min-h-[44px] max-h-40"
             placeholder="Nhập câu hỏi hoặc lệnh... (Enter để gửi, Shift+Enter xuống dòng)"
             value={input}

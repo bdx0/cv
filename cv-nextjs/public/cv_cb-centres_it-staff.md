@@ -1,6 +1,6 @@
 # Dương Bảo Duy
 
-baoduy.duong0206@gmail.com | github.com/bdx0 | bdx0.io.vn | TP. Hồ Chí Minh
+baoduy.duong0206@gmail.com | github.com/bdx0 | bdx0.io.vn | Bến Tre
 
 ## Tóm tắt
 
@@ -8,7 +8,7 @@ Kỹ sư phần mềm với hơn 11 năm kinh nghiệm phát triển hệ thốn
 
 ## Kinh nghiệm làm việc
 
-**Freelance Fullstack Developer** | TP. Hồ Chí Minh | 12/2022 – Nay
+**Freelance Fullstack Developer** | Bến Tre | 12/2022 – Nay
 
 - Xây dựng và vận hành hạ tầng kỹ thuật tự host: Linux, Docker, Kubernetes, NAS storage, quản lý máy ảo QEMU/libvirt.
 - Thiết kế và triển khai ứng dụng web fullstack bằng Next.js, Python/FastAPI, PostgreSQL — từ backend đến giao diện người dùng.

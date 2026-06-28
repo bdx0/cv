@@ -5,7 +5,7 @@ name: Freelance Fullstack Developer & AI Builder
 role: Freelance
 start: 2022-12
 end: null
-location: Ho Chi Minh City
+location: Bến Tre
 tech: [python, typescript, go, react, nextjs, fastapi, postgresql, docker, kubernetes, linux]
 updated: 2026-06-01
 ---
