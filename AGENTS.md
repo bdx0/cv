@@ -259,9 +259,16 @@ CV luôn được tạo cho một JD cụ thể — không có JD thì không ge
 2. Filter skills: ưu tiên `required_skills` của JD, giữ `nice_to_have` nếu có evidence.
 3. Filter projects: ưu tiên projects dùng tech trong JD.
 4. Viết Summary section nhấn mạnh relevant experience cho role đó.
-5. Commit current canonical CV vào git trước khi tạo file mới.
-6. Output: `cv-nextjs/public/cv_<company-slug>_<role-slug>.md`.
-7. Append GENERATE entry vào `wiki/log.md`.
+5. Đọc `wiki/concepts/ats-guidelines.md` và `wiki/concepts/ats-resume-style.md` — áp dụng toàn bộ:
+   - Single-column, không table/graphic/sidebar
+   - Section names chuẩn: Summary, Work Experience, Education, Skills
+   - Contact info trong body, không trong header/footer
+   - Bullets bắt đầu bằng action verb (Built, Designed, Implemented...)
+   - Quantify achievements khi có thể
+   - Dùng exact keywords từ JD — không paraphrase
+6. Commit current canonical CV vào git trước khi tạo file mới.
+7. Output: `cv-nextjs/public/cv_<company-slug>_<role-slug>.md`.
+8. Append GENERATE entry vào `wiki/log.md`.
 
 ### Career Path Analysis
 
