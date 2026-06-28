@@ -7,7 +7,7 @@ Kỹ sư phần mềm Fullstack / AI với 9 năm kinh nghiệm về backend, fr
 
 ## Kinh nghiệm làm việc
 
-**Freelance Fullstack Developer & AI Builder** | TP.HCM, Việt Nam | 12/2022 – Hiện tại
+**Freelance Fullstack Developer & AI Builder** | Bến Tre, Việt Nam | 12/2022 – Hiện tại
 *   Xây dựng và vận hành homelab self-hosted với Linux, QEMU/libvirt, Docker, Kubernetes, NAS và các dịch vụ developer nội bộ.
 *   Phát triển prototype fullstack với React/Next.js, Python/FastAPI, Go, PostgreSQL và workflow deploy bằng container.
 *   Xây dựng tooling và thử nghiệm AI quanh LLM routing, local/remote model, document/RAG workflow, speech-to-text và agent memory.

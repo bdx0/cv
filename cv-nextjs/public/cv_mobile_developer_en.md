@@ -7,7 +7,7 @@ Highly skilled and experienced Software Engineer with 9 years of expertise, spec
 
 ## Work Experience
 
-**Freelance Fullstack Developer & AI Researcher** | Home | 12/2022 – Present
+**Freelance Fullstack Developer & AI Researcher** | Bến Tre, Vietnam | 12/2022 – Present
 *   Designed and deployed a home lab with QEMU, libvirt, and Kubernetes for fullstack application development.
 *   Built and tested APIs and web applications in isolated environments, integrating IoT components.
 *   Gained hands-on experience with DevOps workflows and Linux server environments.

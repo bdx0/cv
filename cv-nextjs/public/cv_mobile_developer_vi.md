@@ -7,7 +7,7 @@ Kỹ sư phần mềm có kỹ năng cao và kinh nghiệm với 9 năm chuyên 
 
 ## Kinh nghiệm làm việc
 
-**Nhà phát triển Fullstack tự do & Nghiên cứu AI** | Tại nhà | 12/2022 – Hiện tại
+**Nhà phát triển Fullstack tự do & Nghiên cứu AI** | Bến Tre, Việt Nam | 12/2022 – Hiện tại
 *   Thiết kế và triển khai một phòng lab tại nhà với QEMU, libvirt và Kubernetes để phát triển ứng dụng fullstack.
 *   Xây dựng và thử nghiệm các API và ứng dụng web trong môi trường cô lập, tích hợp các thành phần IoT.
 *   Có được kinh nghiệm thực tế với quy trình DevOps và môi trường máy chủ Linux.

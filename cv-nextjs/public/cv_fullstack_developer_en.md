@@ -7,7 +7,7 @@ Fullstack / AI Software Engineer with 9 years of experience across backend, fron
 
 ## Work Experience
 
-**Freelance Fullstack Developer & AI Builder** | Ho Chi Minh City, Vietnam | 12/2022 – Present
+**Freelance Fullstack Developer & AI Builder** | Bến Tre, Vietnam | 12/2022 – Present
 *   Built and maintained a self-hosted homelab using Linux, QEMU/libvirt, Docker, Kubernetes, NAS storage, and private developer services.
 *   Developed fullstack prototypes with React/Next.js, Python/FastAPI, Go, PostgreSQL, and containerized deployment workflows.
 *   Built AI tooling and experiments around LLM routing, local/remote model usage, RAG-style document workflows, speech-to-text, and agent memory.

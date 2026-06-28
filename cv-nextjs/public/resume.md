@@ -16,12 +16,12 @@ I am a software engineer with 9 years of expertise in optimizing application per
 ## Work Experience
 
 ### Freelance Fullstack Developer
-**Home** | 12/2022 - Present
+**Bến Tre, Vietnam** | 12/2022 - Present
 - Designed and deployed a home lab using QEMU, libvirt, and Kubernetes to support fullstack application development and deployment. Built a tested APIs and web apps in isolated VMs and containers, hosted self-developed services on a local NAS, and integrated IoT components to simulate real-world backend scenarios.
 - Gained hands-on experience with DevOps workflows, Linux server environments, and self-hosted developer tools.
 
 ### Freelance AI Researcher
-**Home** | 12/2022 - Present
+**Bến Tre, Vietnam** | 12/2022 - Present
 - Fine-tuning whisper models with rlhf.
 - Porting llama.c to my iphone.
 - Fine-tuned whisper models for my family voices.
