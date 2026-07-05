@@ -1,73 +1,63 @@
 # Dương Bảo Duy
 
-baoduy.duong0206@gmail.com | https://github.com/bdx0 | https://bdx0.io.vn
+baoduy.duong0206@gmail.com | github.com/bdx0 | bdx0.io.vn | Bến Tre, Vietnam (Remote)
 
 ## Summary
-Highly skilled and experienced Software Engineer with 9 years of expertise, specializing in mobile application development. Proven track record in optimizing application performance, driving innovative solutions, and bridging the gap between technology and human interaction. Proficient in Flutter, Android, iOS, and various mobile-centric technologies, with a strong focus on creating user-friendly and high-performing mobile experiences.
+
+Senior Mobile Developer with 10+ years of experience building production mobile applications for iOS, Android, and Flutter. Shipped ZaloCall — a WebRTC-based video calling feature serving 30M+ users in Vietnam. Led Flutter development at Rever Corp (real estate platform), delivering performance optimizations, automated testing, and REST API integrations. Currently building AI-powered tools and personal agents. Available for remote Flutter or mobile roles immediately.
 
 ## Work Experience
 
-**Freelance Fullstack Developer & AI Researcher** | Bến Tre, Vietnam | 12/2022 – Present
-*   Designed and deployed a home lab with QEMU, libvirt, and Kubernetes for fullstack application development.
-*   Built and tested APIs and web applications in isolated environments, integrating IoT components.
-*   Gained hands-on experience with DevOps workflows and Linux server environments.
-*   Engaged in AI research, including fine-tuning Whisper models and porting llama.c to iPhone.
+**Freelance Fullstack Developer & AI Builder** | Remote | 12/2022 – Present
+- Built and operated a self-hosted homelab (Linux/QEMU/Kubernetes/NAS) for application development and AI experimentation.
+- Developed LLM-powered tools: prompt routing engine (Python/FastAPI), speech-to-text pipeline (Whisper), personal AI agent with persistent memory.
+- Delivered client projects integrating REST APIs, IoT, and automation workflows.
 
-**Senior Software Engineer** | Rever Corp, City, Country | 06/2019 – 12/2022
-*   Developed mobile applications using Flutter, enhancing user experience and functionality.
-*   Optimized app performance through code refactoring, improved database queries, and leveraging caching mechanisms.
-*   Implemented comprehensive unit tests and automated testing to ensure high code quality and reliability.
-*   Integrated REST APIs for dynamic data retrieval and seamless synchronization between server and mobile applications.
-*   Developed custom UI/UX solutions that significantly enhanced user engagement and satisfaction.
+**Senior Software Engineer** | Rever Corp, Ho Chi Minh City | 06/2019 – 12/2022
+- Developed and maintained the Rever mobile app (real estate platform) using Flutter and Dart.
+- Optimized app performance through code refactoring, database query improvements, and caching — reducing load time significantly.
+- Implemented unit, widget, and integration tests to improve code coverage and release confidence.
+- Built and integrated REST APIs for real-time data synchronization between mobile clients and backend.
+- Delivered custom UI/UX components following Material Design guidelines.
+- Applied state management patterns (Provider) and clean architecture principles.
 
-**Senior Software Engineer** | VNG Corp, City, Country | 08/2014 – 05/2019
-*   Developed a mobile video call feature utilizing WebRTC technology, enabling real-time communication.
-*   Designed and developed a call quality analysis system for monitoring and improving communication metrics.
-*   Contributed to iOS mobile app development with C/Objective-C, delivering robust application features.
+**Senior Software Engineer** | VNG Corp, Ho Chi Minh City | 08/2014 – 05/2019
+- Developed ZaloCall — WebRTC-based video calling for Zalo, serving 30M+ users in Vietnam.
+- Designed and built a call quality analysis system (MOS score, packet loss, jitter) using Python and Java data pipelines.
+- Built iOS features in C/Objective-C; contributed to Android client in Java.
+- Integrated WebRTC stack into mobile clients; handled NAT traversal, STUN/TURN configuration.
 
-**Mobile Developer** | Brave Corp, City, Country | 05/2013 – 07/2014
-*   Developed various Android and iOS applications for clients, focusing on diverse functional requirements.
-*   Utilized Android NDK to write low-level code, enhancing and modifying FFmpeg's functionality on Android.
-*   Developed an FFmpeg wrapper for advanced video processing tasks, including cropping, background insertion, and video merging.
+**Mobile Developer** | BraveSoft Corp, Ho Chi Minh City | 05/2013 – 07/2014
+- Developed Android and iOS client apps for multiple client projects.
+- Used Android NDK to build low-level FFmpeg wrapper for video processing (crop, background, merge).
 
 ## Projects
 
-**Rever Mobile App** | Rever Corp | 06/2019 – 12/2022
-*   Developed a Flutter-based mobile application, focusing on performance, testing, and UI/UX.
-*   Implemented features for optimized performance, robust testing, and seamless API integration.
+**ZaloCall** | VNG Corp | 2014–2019
+- WebRTC video calling feature for Zalo serving 30M+ users. Responsible for iOS native client and call quality analytics system.
 
-**ZaloCall** | VNG Corp | 08/2014 – 05/2019
-*   Developed a mobile application on iOS using C/Objective-C, enabling video calls over the internet.
+**Rever Mobile App** | Rever Corp | 2019–2022
+- Production Flutter real estate app. Delivered performance improvements, automated test suite, and REST API integrations.
 
-**ZaloStats** | VNG Corp | 08/2014 – 05/2019
-*   Designed and developed an analysis system to measure and assess call quality, including Python and C/Java/Objective-C components.
-
-## Education
-
-**Bachelor in Mathematics & Computer Science** | Ho Chi Minh University of Science, City, Country | Sept 2007 – May 2013
-*   GPA: 6.5/10
+**py-agent** | Personal | 2023–Present
+- Multi-interface AI agent (Telegram, CLI) with persistent memory, LLM routing, and plugin system. Python/FastAPI backend.
 
 ## Skills
 
-*   **Programming Languages**: Dart, Kotlin, Swift, Java, Objective-C, C/C++, Python, Javascript/Typescript, Go
+- **Mobile**: Flutter, Dart, Android (Java/Kotlin), iOS (Swift/Objective-C), WebRTC
+- **State Management**: Provider, Bloc/Cubit (familiar)
+- **Languages**: Python, TypeScript, Go, Java, C/C++, Dart
+- **Backend**: FastAPI, Go/Gin, REST APIs
+- **Database**: PostgreSQL, SQLite
+- **DevOps**: Docker, Kubernetes, Linux, Bash, Git
+- **AI/ML**: LLM APIs (Claude, OpenAI), Whisper/STT
+- **Languages**: English (Working Proficiency), Vietnamese (Native)
 
-*   **Mobile Frameworks & Technologies**: Flutter, Android NDK, WebRTC, iOS Development, Next.js (Frontend)
+## Education
 
-*   **Backend**: Fastapi, Django, Gin, Springboot
-*   **Deep Learning**: Pandas, Numpy, Matplotlib, Pytorch, MLx, Tinygrad
-*   **Database**: PostgreSQL, Superbase, Baserow
-*   **Tools**: Git, VSCode, Bash
-*   **Platforms**: Linux
+**Bachelor of Mathematics & Computer Science** | Ho Chi Minh University of Science | 2007 – 2013
 
-*   **Soft Skills**: Critical Thinking, Problem-Solving, Time Management, GTD, Public Speaking, Self-motivation
+## Other
 
-*   **Languages**: English (Working Proficiency), Japanese (Basic)
-
-## Awards
-
-*   CCNA certified by Trung Tam Tin Hoc DHKHTN
-
-## Other Information
-
-*   **Contributor of Open Source:** Participated in projects like bmad, openintents, Android-Flash-P2P.
-*   **Research:** Conducted research on Android source framework contributions, building custom ROMs, and rooting Android devices (Galaxy S, Nook Color, Kindle fire).
+- Open source contributions: bmad, openintents, Android-Flash-P2P
+- CCNA certified
