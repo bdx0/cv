@@ -40,3 +40,9 @@
 - UPDATE: postgresql — confidence medium → high, thêm evidence ai-router + py-agent
 - UPDATE: postgresql — confidence revert → low (PostgreSQL code trong projects do agent viết, không phải tự viết)
 2026-06-28 GENERATE cv_cb-centres_it-staff.md — JD: Nhân viên Công nghệ & Lập trình @ CB Centres. Match ~75%. Tập trung kinh nghiệm, bỏ projects chưa hoàn thành (ai-router, doc-rag, nanogpt). Tiếng Việt, ATS-compliant.
+
+## 2026-07-05 — UPDATE cv_mobile_developer_en.md
+- Strengthened for Flutter remote job applications
+- Added ZaloCall 30M+ users stat, state management, py-agent project
+- Cleaned skills section, fixed company locations
+

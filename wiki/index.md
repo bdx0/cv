@@ -60,6 +60,7 @@ _(empty)_
 
 ## Syntheses
 - [cv-nextjs-hosting-decision.md](syntheses/cv-nextjs-hosting-decision.md) — Hosting decision: Vercel + Cloudflare Tunnel (planned, not yet deployed)
+- [job-search-strategy-2026.md](syntheses/job-search-strategy-2026.md) — Job search strategy: 4 target roles, platforms, CV status, action items (urgent)
 
 ## Questions
 _(empty)_
