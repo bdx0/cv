@@ -5,7 +5,7 @@ name: Homelab Platform
 project_type: personal-project
 status: active
 public: false
-tech: [linux, qemu, libvirt, docker, kubernetes, bash, nas]
+tech: [linux, qemu, libvirt, docker, kubernetes, bash, nas, terraform, ansible, incus, ceph]
 start: 2022-12
 updated: 2026-06-01
 ---

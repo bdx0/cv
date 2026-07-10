@@ -30,6 +30,8 @@ Source of truth cho career data của Duy. Đọc file này trước khi edit b�
 - [linux.md](entities/linux.md) — Linux, advanced, high
 - [docker.md](entities/docker.md) — Docker, advanced, high
 - [kubernetes.md](entities/kubernetes.md) — Kubernetes, intermediate, medium
+- [terraform.md](entities/terraform.md) — Terraform, intermediate, medium (homelab/on-prem, chưa có cloud provider)
+- [github-actions.md](entities/github-actions.md) — GitHub Actions/CI-CD, intermediate, medium
 - [bash.md](entities/bash.md) — Bash, advanced, high
 - [webrtc.md](entities/webrtc.md) — WebRTC, advanced, high
 - [agent-tooling.md](entities/agent-tooling.md) — Agent Tooling, intermediate, medium
@@ -44,6 +46,9 @@ Source of truth cho career data của Duy. Đọc file này trước khi edit b�
 - [whisper-vietnamese.md](entities/whisper-vietnamese.md) — Vietnamese Speech / Whisper (archived)
 - [zalo-call-quality.md](entities/zalo-call-quality.md) — Zalo Call Quality (archived, work-private)
 - [nanogpt-vietnamese.md](entities/nanogpt-vietnamese.md) — NanoGPT Vietnamese (archived, experiment)
+
+### Job Descriptions
+- [jd-itbee-remote-cloud-engineer.md](entities/jd-itbee-remote-cloud-engineer.md) — Cloud Engineer (Mã HANHBT) @ ITBee Solutions, considering, ~35% match (Docker: strong, GitHub Actions: weak, Terraform: weak, GCP core: gap hoàn toàn)
 
 ### Experience
 - [freelance.md](entities/freelance.md) — Freelance, 2022–present

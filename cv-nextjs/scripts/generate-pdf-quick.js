@@ -23,11 +23,20 @@ const CSS = `
   li { margin-bottom: 2px; }
   strong { font-weight: bold; }
   a { color: #000; text-decoration: none; }
+  h2 { page-break-after: avoid; }
+  h3 { page-break-after: avoid; }
+  .block { break-inside: avoid; }
 `;
+
+function wrapBlocks(html) {
+  // Wrap each <p><strong>...</strong>...</p> followed by <ul> into a break-inside:avoid div
+  return html.replace(/(<p><strong>[\s\S]*?<\/p>\s*<ul>[\s\S]*?<\/ul>)/g, '<div class="block">$1</div>');
+}
 
 async function generatePdf(mdFile, pdfFile) {
   const md = fs.readFileSync(mdFile, 'utf8');
-  const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body>${marked(md)}</body></html>`;
+  const body = wrapBlocks(marked(md));
+  const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body>${body}</body></html>`;
 
   const browser = await puppeteer.launch({
     executablePath: CHROME,
@@ -46,6 +55,7 @@ async function generatePdf(mdFile, pdfFile) {
   console.log(`Generated: ${pdfFile}`);
 }
 
-const mdFile = path.join(__dirname, '../public/cv_cb-centres_it-staff.md');
-const pdfFile = path.join(__dirname, '../public/cv_cb-centres_it-staff.pdf');
+const name = process.argv[2] || 'cv_cb-centres_it-staff';
+const mdFile = path.join(__dirname, `../public/${name}.md`);
+const pdfFile = path.join(__dirname, `../public/${name}.pdf`);
 generatePdf(mdFile, pdfFile).catch(console.error);
